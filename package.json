@@ -4,6 +4,8 @@
   "main": "index.js",
   "author": "Andrew Mead",
   "license": "MIT",
+
+ 
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
@@ -24,7 +26,7 @@
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
     "jest-cli": "^27.0.4",
-    "moment": "2.18.1",
+    "moment": "^2.18.1",
     "node-sass": "^4.14.1",
     "normalize.css": "7.0.0",
     "numeral": "2.0.6",
@@ -43,6 +45,10 @@
     "validator": "8.0.0",
     "webpack": "3.1.0"
   },
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
@@ -55,5 +61,6 @@
     "jest": "^25.5.4",
     "react-test-renderer": "15.6.1",
     "webpack-dev-server": "2.5.1"
-  }
+  },
+  "description": "git init - Create a new git repo git status - View the changes to your project code git add - Add files to staging area git commit - Creates a new commit with files from staging area git log - View recent commits"
 }
